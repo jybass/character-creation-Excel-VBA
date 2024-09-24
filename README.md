@@ -28,8 +28,5 @@ habilidades, linhagens sanguineas, etc... com atributos que são atualizados aut
 5. Use o botão de reset para limpar todas as seleções e começar um novo personagem.
 
 ## Capturas de Tela
-![Seleção de Raça e Habilidades](./imagens/selecao.png)  
-*Figura 1: Exemplo de seleção de espécie e habilidades.*
-
-![Atributos Atualizados](./imagens/atributos.png)  
-*Figura 2: Atributos sendo atualizados automaticamente com base nas seleções.*
+![TABELA FICHA](Captura de tela 2024-09-24 112511.png)  
+*Figura 1: Exemplo de customização.*
