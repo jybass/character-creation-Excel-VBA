@@ -5,7 +5,7 @@ Este projeto é um sistema dinâmico de criação de personagens desenvolvido em
 habilidades, linhagens sanguineas, etc... com atributos que são atualizados automaticamente com base nas seleções feitas.
 
 ## Funcionalidades Principais
-- **Customização de Personagem*: Escolha a espécie do personagem e customize diversas opções disponiveis.
+- **Customização de Personagem**: Escolha a espécie do personagem e customize diversas opções disponiveis.
 - **Habilidades Específicas de Espécie**: O usuário pode selecionar habilidades únicas para cada espécie (as opções do menu de habilidades variam conforme a espécie), e ver como elas afetam os atributos do personagem.
 - **Afinidades Elementais**: A partir das seleções das variaveis(Habilidades, Bloodlines, Armas), as afinidades elementais do personagem são automaticamente atribuídas.
 - **Botão de Reset**: Um botão de reset foi implementado para limpar a ficha do personagem e redefinir todas as seleções.
