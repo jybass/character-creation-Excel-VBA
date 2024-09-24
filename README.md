@@ -5,21 +5,20 @@ Este projeto é um sistema dinâmico de criação de personagens desenvolvido em
 habilidades, linhagens sanguineas, etc... com atributos que são atualizados automaticamente com base nas seleções feitas.
 
 ## Funcionalidades Principais
-- **Seleção de Espécie e Bloodlines**: Escolha a espécie do personagem e as linhagens de sangue que ele pode adquirir.
-- **Habilidades Específicas**: O usuário pode selecionar habilidades únicas para cada espécie, as opções de habilidades variam conforme a espécie, e ver como elas afetam os atributos
-do personagem.
-- **Afinidades Elementais**: A partir das seleções de habilidades e bloodlines, as afinidades elementais do personagem são automaticamente atribuídas.
+- **Customização de Personagem*: Escolha a espécie do personagem e customize diversas opções disponiveis.
+- **Habilidades Específicas de Espécie**: O usuário pode selecionar habilidades únicas para cada espécie (as opções do menu de habilidades variam conforme a espécie), e ver como elas afetam os atributos do personagem.
+- **Afinidades Elementais**: A partir das seleções das variaveis(Habilidades, Bloodlines, Armas), as afinidades elementais do personagem são automaticamente atribuídas.
 - **Botão de Reset**: Um botão de reset foi implementado para limpar a ficha do personagem e redefinir todas as seleções.
 
 ## Estrutura do Projeto
-1. **Espécie (C2)**: Seleção de diferentes raças, como Demigod, Dragon, Phoenix, etc.
-2. **Bloodlines (E2 e E4)**: Escolha entre linhagens.
-3. **Atributos e Afinidades**: O sistema atribui automaticamente afinidades elementais e atualiza os atributos baseados nas seleções feitas.
-4. **Habilidades Específicas**: Selecione habilidades, armas, companheiros romanticos e mais, para o personagem, que também influenciam os atributos e afinidades.
+1. **Base Attributes**: Planilha com as raças e seus atributos base. Essa planilha é referenciada na escolha de raça através de funções PROCV.
+2. **Special Abilities**: Planilha que armazena todas as variaveis que alteram os atributos, ela é referenciada em todos os atributos, foram criados intervalos nomeados para cada coluna e utilizado a Função SOMASE para realizar a soma dos incrimetos de cada variável.
+3. **Unique Abilities**: Planilha criada para relacionar a espécie com suas habilidades unicas, permitindo assim que quando alterado a espécie as habilidades sejam unicas para aquela espécie.
+4. **Ficha**: Planilha principal do projeto, onde a customização é realizada.
 
 ## Tecnologias Utilizadas
-- **Excel**: Planilhas para organizar as seleções e os cálculos.
-- **VBA (Visual Basic for Applications)**: Para automatizar atualizações de atributos e elementos com base nas seleções feitas pelo usuário.
+- **Excel**: Planilhas para organizar as seleções, validação de dados e os cálculos.
+- **VBA (Visual Basic for Applications)**: Para automatizar atualizações de elementos com base nas seleções feitas pelo usuário.
 
 ## Como Utilizar
 1. **Baixe o arquivo** clicando [aqui](./Ficha%20de%20personagem.xlsm).
@@ -34,10 +33,3 @@ do personagem.
 
 ![Atributos Atualizados](./imagens/atributos.png)  
 *Figura 2: Atributos sendo atualizados automaticamente com base nas seleções.*
-
-## Contribuição
-Se você quiser melhorar o projeto, fique à vontade para abrir um *pull request* ou *issue*. Sugestões são bem-vindas!
-
----
-
-**Contato**: [SeuNome](https://github.com/SeuPerfil)
