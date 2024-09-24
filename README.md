@@ -28,5 +28,5 @@ habilidades, linhagens sanguineas, etc... com atributos que são atualizados aut
 5. Use o botão de reset para limpar todas as seleções e começar um novo personagem.
 
 ## Capturas de Tela
-![TABELA FICHA](Captura de tela 2024-09-24 112511.png)  
+![TABELA FICHA](Exemplo_customizacao.png)  
 *Figura 1: Exemplo de customização.*
